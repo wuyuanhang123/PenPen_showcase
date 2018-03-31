@@ -1,0 +1,102 @@
+body {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+#Penpen-page {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#Penpen-aside {
+	position: fixed;
+    float: left;
+    width: 270px;
+    height: 100%;
+    margin-right: -270px;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	background: #009688;	
+	//overflow-y: scroll;
+	text-align: center;
+}
+
+#Penpen-img{
+    margin: 80px 0 60px 0;
+}
+
+#Penpen-menu ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#Penpen-menu-ul li {
+    margin: 0 0 10px 0;
+    padding: 0;
+    list-style: none;
+}
+
+#Penpen-footer{
+    position: absolute;
+    bottom: 40px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#Penpen-wrap{
+    float: right;
+    width: 100%;
+    height: 100%;
+}
+
+#Penpen-content{
+    margin-left: 270px;
+}
+
+.Penpen-top-menu{
+	width: 100%;
+    float: left;
+    display: inline;
+    height: 60px;
+    background-color: White;
+    border-bottom: solid 1px #D9D9D9;
+}
+
+.Penpen-logo{
+	width: 380px;
+    height: 40px;
+    float: left;
+    display: inline;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.Penpen-top-menu-list{
+	float: right;
+    margin-right: 15px;
+}
+
+.top-menu-ul{
+	margin-top: 13px;
+}
+
+.top-menu-ul li {
+    /* width: 120px; */
+    height: 34px;
+    line-height: 34px;
+    float: left;
+    display: inline;
+    font-size: 16px;
+    margin-left: 15px;
+    text-align: center;
+    border: solid 1px #009688;
+    border-radius: 20px;
+}
+
