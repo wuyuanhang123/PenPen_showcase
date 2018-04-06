@@ -37,7 +37,7 @@ $(function(){
          <img alt="" src="../images/test.jpg" class="pictureright"/>\
          </div>\
          </div>'
-     socket.send(message)   //将消息发送至服务器
+     socket.send(message)
      $("#chatiframe").append(html);
      $("#sendtext").val("")
  })
